@@ -1,9 +1,12 @@
 #why-me{
+
+
+}
+
+#why-me .container{
     background-color: var(--color-primary);
     margin: 50px 150px 0px 150px;
-
     border-radius:15px;
-
 }
 
 #why-me h2{    color:var(--color-bg);
