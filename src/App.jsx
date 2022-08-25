@@ -6,15 +6,17 @@ import Intro from "./components/intro/Intro";
 import Topbar from "./components/topbar/Topbar";
 import HowItWorks from "./components/how-it-works";
 import WhyMe from "./components/why-me";
+import Prices from "./components/prices"
 
 function App() {
   return (
     <>
       <Header />
       <Topbar />
-      <Intro />
-      <HowItWorks />
       <WhyMe />
+      <Intro />
+      <HowItWorks /> 
+      <Prices />
       <Contact />
       <Footer />
     </>

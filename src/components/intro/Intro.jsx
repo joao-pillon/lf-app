@@ -19,16 +19,19 @@ const Intro = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experiência</h5>
-              <small>X</small>
+              <h5>Tech Recruiter</h5>
+              <small>5 anos</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projetos</h5>
-              <small>X</small>
+              <h5>Professor de Inglês</h5>
+              <small>4 anos</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore architecto optio, iusto delectus maiores vel provident, culpa veritatis fugit harum blanditiis rerum doloribus eligendi, amet deserunt cupiditate aut non? Placeat.
+          <p>Nascido no interior de São Paulo, pai de gata e com uma paixão por videogames e livros, tive oportunidade de atuar em diferentes áreas (Farmácia, Recepção e Recrutamento em TI). 
+          <br></br><br></br>Formado em tradução e interpretação, dediquei os últimos 5 anos à posição de Tech Recruiter, contratando profissionais dentro e fora do Brasil. 
+Com atuação em empresas startups, consultorias e multinacionais, já estive a cargo de posições para Europa, Estados Unidos e América Latina. Além disso, tenho experiência como voluntário, onde ensinei inglês e português na Colômbia entre 2019 e 2020. <br></br><br></br>Há quase 4 anos tenho trabalhado paralelamente como professor de inglês focado em profissionais de TI, com o intuito de ajudar pessoas a ingressarem no mercado internacional e mudar o cenário brasileiro em relação à fluência em outras línguas.
+
             </p>
           <a href="#contact" className="btn btn-primary">Entre em contato</a>
         </div>

@@ -12,6 +12,7 @@ const Footer = () => {
         <li><a href="#home">Home</a></li>
         <li><a href="#about">Sobre</a></li>
         <li><a href="#how-it-works">Aulas</a></li>
+        <li><a href="#prices">Preços</a></li>
         <li><a href="#contact">Contato</a></li>
       </ul>
       <div className="footer__socials">

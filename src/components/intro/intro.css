@@ -5,6 +5,7 @@
 }
 
 .about__me {
+    margin-top:250px;
     width: 100%;
     aspect-ratio: 1/1.332;
     border-radius: 2rem;
@@ -14,6 +15,7 @@
 }
 
 .about__me-image {
+
     border-radius: 2rem;
     overflow: hidden;
     transition: var(--transition);
