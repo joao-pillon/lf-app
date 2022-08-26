@@ -40,7 +40,7 @@ const Intro = () => {
             2020. 
           </p>
           <a href="#contact" className="btn btn-primary">
-            Entre em contato
+            Agende sua aula
           </a>
         </div>
       </div>

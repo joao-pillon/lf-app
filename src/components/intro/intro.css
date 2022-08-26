@@ -53,17 +53,18 @@
 }
 
 .about__card h5 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: white;
 }
 
 .about__card small {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: var(--color-light);
 }
 
 .about__content p {
-    font-size:1.4rem;
+    text-align: justify;
+    font-size:1.0rem;
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
@@ -100,7 +101,7 @@
     }
 
     .about__content p {
-        font-size:15px;
+        font-size:0.9rem;
         margin: 1.5rem 0;
     }
 
