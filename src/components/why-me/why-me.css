@@ -1,7 +1,8 @@
 #why-me .img img{
   display:flex;
     margin-top: 20px;
-    width: 80%;
+    height: 475px;
+    width: 475px;
     border-radius: 50%;
 }
 
@@ -9,12 +10,13 @@
 #why-me .container{
     display:grid;
     grid-template-columns: 50% 50%;
-}
+
+  }
 
 #why-me .container .header{
   background-color: var(--color-bg-variant);
   border-radius: 35px;
-
+  height: 525px;
 
 }
 #why-me h5 {
@@ -31,18 +33,18 @@
 }
 .header h3 {
   color: var(--color-primary);
-  font-size:1.1rem;
+  font-size:0.9rem;
 
 }
 
 .header h4,h5 {
-    font-size:1.1rem;
+    font-size:0.9rem;
     padding-bottom:20px;
 }
 
 .header p {
-    text-align:justify;
-    font-size:1rem;
+    text-align:left;
+    font-size:0.8rem;
     color:var(--color-light)
 }
 .header span {

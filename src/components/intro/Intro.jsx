@@ -35,7 +35,8 @@ const Intro = () => {
             anos à posição de Tech Recruiter, contratando profissionais dentro e
             fora do Brasil. Com atuação em empresas startups, consultorias e
             multinacionais, já estive a cargo de posições para Europa, Estados
-            Unidos e América Latina. Além disso, tenho experiência como
+            Unidos e América Latina. 
+            Além disso, tenho experiência como
             voluntário, onde ensinei inglês e português na Colômbia entre 2019 e
             2020. 
           </p>

@@ -10,6 +10,10 @@ header {
   position: relative;
 }
 
+.header__container h1{
+  padding-bottom: 25px;
+}
+
 .cta {
   display: flex;
   justify-content: center;
@@ -25,7 +29,7 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 5rem;
+  left: 0rem;
   bottom: 1rem;
 }
 
@@ -38,7 +42,7 @@ header {
 
 .scroll__down {
   position: absolute;
-  right: 3rem;
+  right: 0rem;
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
@@ -47,6 +51,8 @@ header {
 
 h5{
   color: white;
+  margin:0px;
+  padding:0px;
 }
 
 

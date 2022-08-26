@@ -18,15 +18,18 @@ h2{
     font-size:1.3rem;
 }
 .container-price{
-
 display: grid;
-grid-template-columns: 25% 25% 25%;
+grid-template-columns: 50% 40%;
 gap: 10%;
 margin-bottom: 50px;
 }
 
-.container-text{
-    margin-top:15px;
+.container-text{}
+.container-pic{width: 75%;}
+
+.container-card{
+    display: grid;
+    grid-template-rows: 40% 20%;
 }
 
 .price__cards {
@@ -39,9 +42,10 @@ margin-bottom: 50px;
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
     transition: var(--transition);
+    height: 225px;
 }
 
 .price__card:hover {
