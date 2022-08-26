@@ -1,6 +1,7 @@
 #why-me .img img{
+    margin-top: 20px;
     width: 80%;
-    border-radius:25px;
+    border-radius: 50%;
 }
 
 
@@ -15,7 +16,6 @@
   border-radius: 35px;
 
 }
-
 #why-me h5 {
   color: var(--color-white);
 }
@@ -37,6 +37,15 @@
 .header h4,h5 {
     font-size:20px;
     padding-bottom:20px;
+}
+
+.header p {
+    text-align:left;
+    font-size:18px;
+    color:var(--color-light)
+}
+.header span {
+    color:var(--color-primary)
 }
 
 #why-me .container h5{

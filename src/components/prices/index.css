@@ -1,5 +1,67 @@
 #prices {
-    margin-left: 12%;
-    margin-right: 12%;
-    text-align: justify;    line-height: 1.7;     font-size: 1.4rem; color: var(--color-light)
+  margin-left: 12%;
+  margin-right: 12%;
+  text-align: justify;
+  line-height: 1.7;
+  font-size: 1.4rem;
+  color: var(--color-light);
+}
+
+#prices img{
+    border: 15px;
+    border-radius:3rem;
+
+}
+
+h2{
+    font-size:20px;
+}
+.container-price{
+margin:75px 10% 0px 10%;
+display: grid;
+grid-template-columns: 35% 40%;
+gap: 20%;
+}
+
+.container-text{
+    margin-top:15px;
+}
+
+.price__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.price__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.price__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.price__icon {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.price__card h5 {
+    font-size: 1.2rem;
+    color: white;
+}
+.price__card p {
+    font-size: 1.2rem;
+}
+.price__card small {
+    font-size: 1rem;
+    color: var(--color-light);
 }
