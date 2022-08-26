@@ -8,7 +8,7 @@ const WhyMe = () => {
       <div className="container">
         <div className="header">
           <h3>
-            Você é um profissional da TI e tá precisando de um empurrãozinho
+            Você é profissional de TI e tá precisando de um empurrãozinho
             para conseguir aquele cargo internacional?<br></br>
             <br></br>
           </h3>

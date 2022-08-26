@@ -48,11 +48,6 @@ gap: 20%;
     cursor: default;
 }
 
-.price__icon {
-    color: var(--color-primary);
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
 
 .price__card h5 {
     font-size: 1.2rem;
@@ -64,4 +59,28 @@ gap: 20%;
 .price__card small {
     font-size: 1rem;
     color: var(--color-light);
+}
+
+
+@media screen and (max-width: 768px){
+    .container-price{
+        gap: 5%;
+        grid-template-columns: none;
+
+        }
+
+.price__cards {
+    grid-template-columns: none;
+    }
+    .price__card h5 {
+        font-size: 1.0rem;
+        color: white;
+    }
+    .price__card p {
+        font-size: 0.9rem;
+    }
+    .price__card small {
+        font-size: 0.8rem;
+        color: var(--color-light);
+    }
 }

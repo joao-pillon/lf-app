@@ -22,3 +22,9 @@
     border-radius:2rem;
 }
 
+@media screen and (max-width:768px){
+    p {font-size:15px;}
+    .obj{
+        gap: 5%;
+        grid-template-columns: none;}
+}
