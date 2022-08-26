@@ -75,8 +75,8 @@ margin-bottom: 50px;
         grid-template-columns: none;
      
             margin-bottom: 175px;}
-    
-
+            .container-card{gap:15%;} 
+            .container-pic{margin-left:10%;}
 .price__cards {
     grid-template-columns: none;
     }
